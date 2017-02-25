@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="users.Sigup">
+    <StackLayout>
+        <Label Text="Create Account"/>
+        <Label Text="Username"/>
+        <Entry x:Name="Username"/>
+        <Label Text="Password"/>
+        <Entry x:Name="Password" IsPassword="True"/>
+        <Label Text="Full Name: "/>
+        <Entry x:Name="Name"/>
+        <Label Text="Birthday"/>
+        <Entry x:Name="Birthday"/>
+        <Label Text="Numberphone"/>
+        <Entry x:Name="Numberphone"/>
+        <Label Text="Email"/>
+        <Entry x:Name="Email"/>
+        <Button Text="Submit" BorderColor="Blue" Clicked="post"/>
+    </StackLayout>
+</ContentPage>

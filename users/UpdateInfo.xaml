@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="users.UpdateInfo">
+    <StackLayout>
+        <Label x:Name="Username"/>
+        <Label Text="Cập nhập thông tin"/>
+        <Entry x:Name="Nameuser"/>
+        <Entry x:Name="Birthday"/>
+        <Entry x:Name="Numberphone"/>
+        <Entry x:Name="Email"/>
+        <Button Text="Submit" Clicked="put"/>
+    </StackLayout>
+</ContentPage>
